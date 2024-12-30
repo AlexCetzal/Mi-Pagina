@@ -13,6 +13,7 @@ export function App() {
 
         <main>
             <Perfil />
+            <hr />
             <SobreMi />
             <Proyectos />
             <Contacto />
