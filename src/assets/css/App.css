@@ -1,0 +1,259 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #222;
+}
+.logo{
+  width:  50px;
+  height: 50px;
+}
+
+nav {
+  background-color: #333; 
+  padding: 10px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none; 
+  margin: 0;
+  display: flex; 
+  justify-content: end; 
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav ul li a {
+  text-decoration: none; 
+  color: #fff; 
+  font-size: 16px; 
+  padding: 10px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
+  border-radius: 5px; 
+}
+
+nav ul li a:hover {
+  background-color: #1b4d6e; 
+  color: #e0e0e0; 
+}
+
+.perfil {
+
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  flex-wrap: wrap; 
+  padding: 20px;
+  gap: 20px; 
+}
+
+
+.sobremi {
+  flex: 1; 
+  max-width: 500px; 
+  height: 565px;
+  padding: 20px;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 34px;
+
+}
+
+.sobremi p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+
+.mifoto {
+  flex: 1;
+  max-width: 500px; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.circulo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+}
+
+.circ-per {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+}
+/* Sección Sobre Mí */
+.sobreMi {
+  max-width: 100%; /* Ancho máximo de la sección */
+  margin: 40px auto; /* Centra la sección horizontalmente */
+  padding: 20px;
+  background-color: #222; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+  font-family: Arial, sans-serif; /* Fuente */
+  line-height: 1.6; /* Altura de línea para mejorar legibilidad */
+}
+
+/* Título de la sección */
+.sobreMi h2 {
+  font-size: 32px; /* Tamaño del título */
+  margin-bottom: 20px; /* Espaciado inferior */
+  color: #117fbb; /* Color destacado */
+  text-align: center; /* Centra el título */
+}
+
+/* Párrafos */
+.sobreMi p {
+  font-size: 16px; /* Tamaño del texto */
+  margin-bottom: 15px; /* Espaciado inferior */
+  color: #e0e0e0; /* Color gris claro */
+  text-align: justify; /* Justifica el texto */
+}
+
+/* Lista de habilidades */
+.hablilidades {
+  margin-top: 20px; /* Margen superior */
+  padding-left: 20px; /* Sangría para la lista */
+  list-style: none; /* Sin viñetas */
+}
+
+/* Estilo para cada habilidad */
+.hablilidades li {
+  font-size: 16px; /* Tamaño del texto */
+  margin-bottom: 10px; /* Espaciado entre elementos */
+  padding-left: 20px; /* Espaciado adicional para el ícono */
+  position: relative; /* Para posicionar el ícono */
+  color: #117fbb; /* Color destacado */
+}
+
+/* Ícono antes de cada habilidad */
+.hablilidades li::before {
+  content: "✓"; /* Ícono de check */
+  color: #117fbb; /* Mismo color que el texto */
+  position: absolute; /* Posiciona el ícono */
+  left: 0; /* Alinea a la izquierda */
+  font-size: 18px; /* Tamaño del ícono */
+  line-height: 1; /* Alineación vertical */
+}
+
+/* Sección Proyectos Destacados */
+.proyect {
+  max-width: 100%; /* Ancho máximo para la sección */
+  margin: 40px auto; /* Centra la sección horizontalmente */
+  padding: 20px;
+  background-color: #222; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra */
+  font-family: Arial, sans-serif; /* Fuente */
+  text-align: center; /* Centra el texto */
+}
+
+/* Título de la sección */
+.proyect h2 {
+  font-size: 32px; /* Tamaño del título */
+  margin-bottom: 20px; /* Espaciado inferior */
+  color: #117fbb; /* Color destacado */
+}
+
+
+
+
+
+
+
+/* Sección de contacto */
+.contacto {
+  max-width: 100%;
+  margin: 40px auto; /* Centra la sección en la página */
+  padding: 20px;
+  text-align: center; /* Centra el contenido */
+  color: #fff; /* Texto claro */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+  font-family: Arial, sans-serif;
+}
+
+/* Título de la sección */
+.contacto h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #117fbb; /* Color destacado */
+}
+
+/* Subtítulo */
+.contacto p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #e0e0e0; /* Texto gris claro */
+}
+
+/* Formulario */
+.contacto form {
+  display: flex;
+  flex-direction: column; /* Coloca los elementos en columna */
+  gap: 15px; /* Espaciado entre los elementos */
+  align-items: center; /* Centra los elementos horizontalmente */
+}
+
+/* Campos del formulario */
+.contacto form input,
+.contacto form textarea {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  max-width: 500px; /* Ancho máximo para mantenerlo compacto */
+  padding: 10px;
+  font-size: 16px;
+  color: #000; /* Texto oscuro */
+  background-color: #f4f4f4; /* Fondo claro */
+  border: 2px solid #ddd; /* Borde claro */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra interna */
+}
+
+.contacto form input:focus,
+.contacto form textarea:focus {
+  border-color: #117fbb; /* Borde azul al enfocar */
+  outline: none; /* Elimina el borde de enfoque predeterminado */
+}
+
+/* Campo de texto grande */
+.contacto form textarea {
+  resize: vertical; /* Permite cambiar el tamaño solo verticalmente */
+  min-height: 120px; /* Altura mínima */
+}
+
+/* Botón */
+.contacto form .btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff; /* Texto blanco */
+  background-color: #117fbb; /* Fondo azul */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de mano */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+}
+
+.contacto form .btn:hover {
+  background-color: #0e6ea1; /* Fondo azul oscuro */
+  transform: scale(1.05); /* Agranda ligeramente */
+}
+
+.contacto form .btn:active {
+  transform: scale(0.95); /* Disminuye ligeramente al hacer clic */
+}
